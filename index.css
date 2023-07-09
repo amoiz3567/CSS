@@ -36,7 +36,7 @@ h1 {
 color: #dedede;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-weight: 900;
-font-family: 'kanyon', sans-serif;
+font-family: 'kanyon';
 }
 .center {
 display: flex;
