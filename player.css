@@ -50,6 +50,8 @@ button + button {
 .fa-fast-forward:hover {
   color: dodgerblue;
   cursor: pointer;
+  position: relative;
+  z-index: 500;
 }
 
 .player_button {
