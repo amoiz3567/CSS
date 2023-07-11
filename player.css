@@ -14,7 +14,7 @@ button + button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 880px;
+  width: 100%;
 }
 
 .player {
