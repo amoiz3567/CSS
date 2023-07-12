@@ -11,10 +11,22 @@ button + button {
 
 .video-box {
   margin-top: 3em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s;
+}
+.mySlides {
+  transition: 0.8s;
+}
+.mySlides2 {
+  transition: 0.8s;
+}
+.mySlides3 {
+  transition: 0.8s;
+}
+.mySlides4 {
+  transition: 0.8s;
 }
 
 .player {
@@ -277,5 +289,55 @@ button + button {
   @media (max-width: 600px) {
     .player {
       width: 95%;
+    }
+  }  .fadehide {
+    opacity: 1;
+    left: 0;
+    display: none;
+  }
+  .fadeshow {
+    animation: .6s ease fadeshow;
+    display: block;
+  }
+  .fadeshowLeft {
+    animation: .6s ease fadeshowLeft;
+    display: block;
+  }
+
+  @keyframes fadehide {
+    0% {
+      opacity: 1;
+      margin-left: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      margin-left: -250px;
+      opacity: 0;
+      display: block;
+    }
+  }  @keyframes fadeshow {
+    0% {
+      display: block;
+      opacity: 0;
+      margin-right: -250px;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+  }@keyframes fadeshowLeft {
+    0% {
+      display: block;
+      opacity: 0;
+      margin-left: -250px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
     }
   }
