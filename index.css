@@ -447,17 +447,26 @@ i {
 @media screen and (max-width: 800px) {
     .list {
         margin-left: -50px;
-    }
-    .rep {
+    }.cam1 {
+        margin-left: 180px;
+        margin-bottom: -290px;
         display: flex;
         justify-content: left;
         align-items: left;
-        width: 405px;
-    }
-
-    .rep h1 {
-        font-size: 35px;
-        width: 250px;
+    } .rep {
+        display: block;
+        justify-content: left;
+        align-items: left;
+        width: auto;
+        margin-bottom: 150px;
+    } .rep div {
+        margin: 0;
+        margin-top: 250px;
+        width: auto;
+    } .rep h1 {
+        font-size: 45px;
+        margin: 0;
+        margin-bottom: -60px;
     }
 }
 
@@ -525,9 +534,9 @@ i {
     }
 
     .cam1 {
-        width: 550px;
-        height: 450px;
-        margin-left: 50px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: -350px;
     }
 
     .searchbtn {
